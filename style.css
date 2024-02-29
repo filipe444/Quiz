@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+body{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url(https://media.istockphoto.com/id/1335403960/pt/vetorial/seamless-question-mark-asking-questions-quiz-background-pattern.jpg?s=612x612&w=0&k=20&c=pqr1sJxwuqUF_K0JfJQG96tZgOjrfPO26RY5NcJhGTU=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.614);
+}
+
+.quiz-container{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#pergunta{
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: white;
+    background-color:  rgba(0, 0, 0, 0.614);
+}
+
+#opcoes{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+button{
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.correto{
+    background-color: #8bc34a;
+}
+
+.incorreto{
+    background-color: #ff5722;
+}
+
+.fim{
+    color: aliceblue;
+    background-color: #88ff00a9;
+    font-size: 30px;
+}
+
+footer{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.614);
+    font-size: 40px;
+    margin-top: 5em;
+}
